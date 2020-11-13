@@ -24,7 +24,7 @@ From: centos:8
             python38-devel \
             python38-pip \
             patch \
-            openss-devel \
+            openssl-devel \
             pcre-devel \
             mesa-libGL-devel \
             mesa-libGLU-devel \
