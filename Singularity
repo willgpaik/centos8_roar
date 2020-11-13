@@ -10,9 +10,9 @@ From: centos:8
 %runscript
 
 %post
+    dnf install -y epel-release centos-release-scl
     dnf group install -y "Development Tools"
     dnf group install -y "Base"
-    dnf install -y epel-release centos-release-scl
     dnf install -y vim \
             git \
             cmake \
