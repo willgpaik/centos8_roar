@@ -10,8 +10,9 @@ From: centos:8
 %runscript
 
 %post
-    dnf config-manager --set-enabled PowerTools
     dnf install -y epel-release
+    dnf install -y dnf-plugins-core
+    dnf config-manager --set-enabled PowerTools
     dnf group install -y "Development Tools"
     dnf group install -y "Base"
     dnf install -y vim \
