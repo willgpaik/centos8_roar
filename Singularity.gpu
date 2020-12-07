@@ -10,6 +10,7 @@ From: nvidia/cuda:11.1-cudnn8-devel-centos8
 %runscript
 
 %post
+    dnf update -y
     dnf install -y epel-release
     dnf install -y dnf-plugins-core
     dnf config-manager --set-enabled PowerTools
