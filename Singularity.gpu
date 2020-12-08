@@ -14,7 +14,7 @@ From: nvidia/cuda:11.1-cudnn8-devel-centos8
     dnf install -y dnf-plugins-core
     dnf install -y epel-release
     dnf install -y dnf-plugins-core
-    dnf config-manager --set-enabled PowerTools
+    dnf config-manager --set-enabled CentOS-PowerTools
     dnf group install -y "Development Tools"
     dnf group install -y "Base"
     dnf install -y vim \
