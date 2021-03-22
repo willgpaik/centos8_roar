@@ -55,7 +55,7 @@ From: centos:8
             libxkbcommon-devel \
             libxkbcommon-x11 \
             readline-devel
-    dnf -y install tix-devel tk-devel tkinter \
+    dnf -y install tix-devel python3-tkinter python38-tkinter \
             libxkbcommon-devel libxkbcommon-x11-devel \
             lapack-devel \
             blas-devel \
