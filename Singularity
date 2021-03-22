@@ -62,7 +62,10 @@ From: centos:8
             openblas-devel \
             netcdf-devel \
             atlas-devel \
-            libX11-devel
+            libX11-devel \
+            libXt-devel \
+            xorg-x11-server-devel \
+            xorg-x11-drv-evdev-devel
     dnf -y update
     
     # Make python 3.8 as default
