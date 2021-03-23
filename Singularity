@@ -65,7 +65,8 @@ From: centos:8
             libX11-devel \
             libXt-devel \
             xorg-x11-server-devel \
-            xorg-x11-drv-evdev-devel
+            xorg-x11-drv-evdev-devel \
+            xz-devel
     dnf -y update
     
     # Make python 3.8 as default
