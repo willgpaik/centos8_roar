@@ -51,11 +51,11 @@ From: rockylinux:8
             tix \
             tk-devel \
             python2-tkinter \
-            python38-tkinter \
+            python39-tkinter \
             libxkbcommon-devel \
             libxkbcommon-x11 \
             readline-devel
-    dnf -y install tix-devel python3-tkinter python38-tkinter \
+    dnf -y install tix-devel python3-tkinter python39-tkinter \
             libxkbcommon-devel libxkbcommon-x11-devel \
             lapack-devel \
             blas-devel \
