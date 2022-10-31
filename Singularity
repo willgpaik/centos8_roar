@@ -54,7 +54,9 @@ From: rockylinux:8
             python39-tkinter \
             libxkbcommon-devel \
             libxkbcommon-x11 \
-            readline-devel
+            readline-devel \
+            libnsl \
+            libnsl2-devel
     dnf -y install tix-devel python3-tkinter python39-tkinter \
             libxkbcommon-devel libxkbcommon-x11-devel \
             lapack-devel \
