@@ -16,6 +16,7 @@ From: rockylinux:8
     dnf config-manager --set-enabled powertools
     dnf group install -y "Development Tools"
     dnf group install -y "Base"
+    dnf -y update
     dnf install -y vim \
             git \
             cmake \
